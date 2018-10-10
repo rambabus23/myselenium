@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [PortFolio Suite (0)]" parallel="tests">
+  <test thread-count="5" verbose="0" name="AddDelStockTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.qtpselenium.rediff.stocksuite.AddDelStockTest">
+        <methods>
+          <include name="quit"/>
+          <include name="deleteStockTest"/>
+          <include name="init"/>
+          <include name="initTest"/>
+          <include name="addStockTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.qtpselenium.rediff.stocksuite.AddDelStockTest -->
+    </classes>
+  </test> <!-- AddDelStockTest(failed) -->
+</suite> <!-- Failed suite [PortFolio Suite (0)] -->

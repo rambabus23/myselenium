@@ -1,0 +1,93 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 7, Errors: 0, Skipped: 2, Time elapsed: 90.794 s <<< FAILURE! - in TestSuite
+loginTest(com.qtpselenium.rediff.portfoliosuite.LoginTest)  Time elapsed: 1.544 s  <<< FAILURE!
+java.lang.reflect.InvocationTargetException
+	at com.qtpselenium.rediff.portfoliosuite.LoginTest.loginTest(LoginTest.java:23)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'RAM-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Command duration or timeout: 257 milliseconds
+	at com.qtpselenium.rediff.portfoliosuite.LoginTest.loginTest(LoginTest.java:23)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'RAM-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'RAM-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+
+addStockTest(com.qtpselenium.rediff.stocksuite.AddDelStockTest)  Time elapsed: 38.346 s  <<< FAILURE!
+java.lang.reflect.InvocationTargetException
+	at com.qtpselenium.rediff.stocksuite.AddDelStockTest.addStockTest(AddDelStockTest.java:23)
+Caused by: java.lang.AssertionError: 
+The following asserts failed:
+	Object not found myPortFolio_xpath
+	at com.qtpselenium.rediff.stocksuite.AddDelStockTest.addStockTest(AddDelStockTest.java:23)
+
+createPortFolioTest(com.qtpselenium.rediff.portfoliosuite.PortFolioTest)  Time elapsed: 1.59 s  <<< FAILURE!
+java.lang.reflect.InvocationTargetException
+	at com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:23)
+Caused by: java.lang.AssertionError: 
+The following asserts failed:
+	Object not found createPortfolio_id
+	at com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:23)
+
+addStockTest(com.qtpselenium.rediff.stocksuite.AddDelStockTest)  Time elapsed: 0.173 s  <<< FAILURE!
+java.lang.reflect.InvocationTargetException
+	at com.qtpselenium.rediff.stocksuite.AddDelStockTest.addStockTest(AddDelStockTest.java:23)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'RAM-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Command duration or timeout: 5.11 seconds
+	at com.qtpselenium.rediff.stocksuite.AddDelStockTest.addStockTest(AddDelStockTest.java:23)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'RAM-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'RAM-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+
+createPortFolioTest(com.qtpselenium.rediff.portfoliosuite.PortFolioTest)  Time elapsed: 0.615 s  <<< FAILURE!
+java.lang.reflect.InvocationTargetException
+	at com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:23)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'RAM-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Command duration or timeout: 578 milliseconds
+	at com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:23)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'RAM-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'RAM-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+
+loginTest(com.qtpselenium.rediff.portfoliosuite.LoginTest)  Time elapsed: 25.295 s  <<< FAILURE!
+java.lang.reflect.InvocationTargetException
+	at com.qtpselenium.rediff.portfoliosuite.LoginTest.loginTest(LoginTest.java:23)
+Caused by: java.lang.AssertionError: 
+The following asserts failed:
+	Got Result as LoginFailure
+	at com.qtpselenium.rediff.portfoliosuite.LoginTest.loginTest(LoginTest.java:23)
+
+createPortFolioTest(com.qtpselenium.rediff.portfoliosuite.PortFolioTest)  Time elapsed: 36.494 s  <<< FAILURE!
+java.lang.reflect.InvocationTargetException
+	at com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:23)
+Caused by: java.lang.AssertionError: 
+The following asserts failed:
+	Object not found createPortfolio_id
+	at com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:23)
+

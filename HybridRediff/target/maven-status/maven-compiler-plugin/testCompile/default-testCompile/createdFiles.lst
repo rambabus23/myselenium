@@ -1,0 +1,6 @@
+com\qtpselenium\rediff\stocksuite\AddDelStockTest.class
+com\qtpselenium\rediff\base\ParallelExec.class
+com\qtpselenium\rediff\portfoliosuite\PortFolioTest.class
+com\qtpselenium\rediff\portfoliosuite\LoginTest.class
+com\qtpselenium\rediff\stocksuite\BuySellStockTest.class
+com\qtpselenium\rediff\base\BaseTest.class

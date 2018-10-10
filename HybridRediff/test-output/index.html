@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-PortFolio_Suite">
+              <span class="suite-name border-skipped">PortFolio Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-PortFolio_Suite">
+                    <span>D:\RAM\WORKSPACE\WHIZDOM\HybridRediff\src\test\resources\portfoliosuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-PortFolio_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-PortFolio_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-PortFolio_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-PortFolio_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-PortFolio_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-PortFolio_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,  6 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-PortFolio_Suite" class="hide-methods skipped suite-PortFolio_Suite"> (hide)</a> <!-- hide-methods skipped suite-PortFolio_Suite -->
+                      <a href="#" panel-name="suite-PortFolio_Suite" class="show-methods skipped suite-PortFolio_Suite"> (show)</a> <!-- show-methods skipped suite-PortFolio_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-PortFolio_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PortFolio_Suite" title="com.qtpselenium.rediff.portfoliosuite.PortFolioTest" hash-for-method="createPortFolioTest({PortfolioName=SabariJyothi, Runmode=Y, Browser=Mozilla})">createPortFolioTest({PortfolioName=SabariJyothi, Runmode=Y, Browser=Mozilla})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PortFolio_Suite" title="com.qtpselenium.rediff.portfoliosuite.PortFolioTest" hash-for-method="createPortFolioTest({PortfolioName=Rambabu, Runmode=Y, Browser=Mozilla})">createPortFolioTest({PortfolioName=Rambabu, Runmode=Y, Browser=Mozilla})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PortFolio_Suite" title="com.qtpselenium.rediff.portfoliosuite.PortFolioTest" hash-for-method="createPortFolioTest({PortfolioName=TejaSri, Runmode=Y, Browser=Chrome})">createPortFolioTest({PortfolioName=TejaSri, Runmode=Y, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PortFolio_Suite" title="com.qtpselenium.rediff.portfoliosuite.PortFolioTest" hash-for-method="deletePortFolioTest">deletePortFolioTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PortFolio_Suite" title="com.qtpselenium.rediff.portfoliosuite.LoginTest" hash-for-method="loginTest({ExpectedResult=LoginSuccess, Runmode=Y, Browser=Mozilla})">loginTest({ExpectedResult=LoginSuccess, Runmode=Y, Browser=Mozilla})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PortFolio_Suite" title="com.qtpselenium.rediff.portfoliosuite.LoginTest" hash-for-method="loginTest({ExpectedResult=LoginSuccess, Runmode=Y, Browser=Chrome})">loginTest({ExpectedResult=LoginSuccess, Runmode=Y, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-PortFolio_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-PortFolio_Suite_(0)">
+              <span class="suite-name border-skipped">PortFolio Suite (0)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-PortFolio_Suite_(0)">
+                    <span>D:\RAM\WORKSPACE\WHIZDOM\HybridRediff\src\test\resources\stocksuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-PortFolio_Suite_(0)">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-PortFolio_Suite_(0)">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-PortFolio_Suite_(0)">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-PortFolio_Suite_(0)">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-PortFolio_Suite_(0)">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-PortFolio_Suite_(0)">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,  3 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-PortFolio_Suite_(0)" class="hide-methods skipped suite-PortFolio_Suite_(0)"> (hide)</a> <!-- hide-methods skipped suite-PortFolio_Suite_(0) -->
+                      <a href="#" panel-name="suite-PortFolio_Suite_(0)" class="show-methods skipped suite-PortFolio_Suite_(0)"> (show)</a> <!-- show-methods skipped suite-PortFolio_Suite_(0) -->
+                    </span>
+                    <div class="method-list-content skipped suite-PortFolio_Suite_(0)">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PortFolio_Suite_(0)" title="com.qtpselenium.rediff.stocksuite.AddDelStockTest" hash-for-method="addStockTest({PortFolio Name=TejaSri, Runmode=Y, Stock Name=Wipro Ltd, Purchase Price=200, Date Of Purchase=17/09...)">addStockTest({PortFolio Name=TejaSri, Runmode=Y, Stock Name=Wipro Ltd, Purchase Price=200, Date Of Purchase=17/09...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PortFolio_Suite_(0)" title="com.qtpselenium.rediff.stocksuite.AddDelStockTest" hash-for-method="addStockTest({PortFolio Name=Rambabu, Runmode=Y, Stock Name=Infosys Ltd, Purchase Price=500, Date Of Purchase=9/1...)">addStockTest({PortFolio Name=Rambabu, Runmode=Y, Stock Name=Infosys Ltd, Purchase Price=500, Date Of Purchase=9/1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PortFolio_Suite_(0)" title="com.qtpselenium.rediff.stocksuite.AddDelStockTest" hash-for-method="deleteStockTest">deleteStockTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-PortFolio_Suite_(0) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PortFolio_Suite" class="panel PortFolio_Suite">
+          <div class="suite-PortFolio_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.rediff.portfoliosuite.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({ExpectedResult=LoginSuccess, Runmode=Y, Browser=Mozilla})">
+                  </a> <!-- loginTest({ExpectedResult=LoginSuccess, Runmode=Y, Browser=Mozilla}) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({ExpectedResult=LoginSuccess, Runmode=Y, Browser=Mozilla})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping Test as Runmode Set to NO
+	at com.qtpselenium.rediff.portfoliosuite.LoginTest.loginTest(LoginTest.java:20)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({ExpectedResult=LoginSuccess, Runmode=Y, Browser=Chrome})">
+                  </a> <!-- loginTest({ExpectedResult=LoginSuccess, Runmode=Y, Browser=Chrome}) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({ExpectedResult=LoginSuccess, Runmode=Y, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping Test as Runmode Set to NO
+	at com.qtpselenium.rediff.portfoliosuite.LoginTest.loginTest(LoginTest.java:20)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PortFolio_Suite-class-skipped -->
+          <div class="suite-PortFolio_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.rediff.portfoliosuite.PortFolioTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPortFolioTest({PortfolioName=SabariJyothi, Runmode=Y, Browser=Mozilla})">
+                  </a> <!-- createPortFolioTest({PortfolioName=SabariJyothi, Runmode=Y, Browser=Mozilla}) -->
+                  <span class="method-name">createPortFolioTest</span>
+                  <span class="parameters">({PortfolioName=SabariJyothi, Runmode=Y, Browser=Mozilla})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping Test as Runmode Set to NO
+	at com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:20)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPortFolioTest({PortfolioName=Rambabu, Runmode=Y, Browser=Mozilla})">
+                  </a> <!-- createPortFolioTest({PortfolioName=Rambabu, Runmode=Y, Browser=Mozilla}) -->
+                  <span class="method-name">createPortFolioTest</span>
+                  <span class="parameters">({PortfolioName=Rambabu, Runmode=Y, Browser=Mozilla})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping Test as Runmode Set to NO
+	at com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:20)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPortFolioTest({PortfolioName=TejaSri, Runmode=Y, Browser=Chrome})">
+                  </a> <!-- createPortFolioTest({PortfolioName=TejaSri, Runmode=Y, Browser=Chrome}) -->
+                  <span class="method-name">createPortFolioTest</span>
+                  <span class="parameters">({PortfolioName=TejaSri, Runmode=Y, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping Test as Runmode Set to NO
+	at com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:20)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePortFolioTest">
+                  </a> <!-- deletePortFolioTest -->
+                  <span class="method-name">deletePortFolioTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method PortFolioTest.deletePortFolioTest(java.util.Hashtable)[pri:2, instance:com.qtpselenium.rediff.portfoliosuite.PortFolioTest@cb644e] depends on not successfully finished methods
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PortFolio_Suite-class-skipped -->
+        </div> <!-- panel PortFolio_Suite -->
+        <div panel-name="suite-PortFolio_Suite_(0)" class="panel PortFolio_Suite_(0)">
+          <div class="suite-PortFolio_Suite_(0)-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.rediff.stocksuite.AddDelStockTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStockTest({PortFolio Name=TejaSri, Runmode=Y, Stock Name=Wipro Ltd, Purchase Price=200, Date Of Purchase=17/09...)">
+                  </a> <!-- addStockTest({PortFolio Name=TejaSri, Runmode=Y, Stock Name=Wipro Ltd, Purchase Price=200, Date Of Purchase=17/09...) -->
+                  <span class="method-name">addStockTest</span>
+                  <span class="parameters">({PortFolio Name=TejaSri, Runmode=Y, Stock Name=Wipro Ltd, Purchase Price=200, Date Of Purchase=17/09/2017, Quantity=500, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping Test as Runmode Set to NO
+	at com.qtpselenium.rediff.stocksuite.AddDelStockTest.addStockTest(AddDelStockTest.java:20)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStockTest({PortFolio Name=Rambabu, Runmode=Y, Stock Name=Infosys Ltd, Purchase Price=500, Date Of Purchase=9/1...)">
+                  </a> <!-- addStockTest({PortFolio Name=Rambabu, Runmode=Y, Stock Name=Infosys Ltd, Purchase Price=500, Date Of Purchase=9/1...) -->
+                  <span class="method-name">addStockTest</span>
+                  <span class="parameters">({PortFolio Name=Rambabu, Runmode=Y, Stock Name=Infosys Ltd, Purchase Price=500, Date Of Purchase=9/10/2018, Quantity=100, Browser=Mozilla})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping Test as Runmode Set to NO
+	at com.qtpselenium.rediff.stocksuite.AddDelStockTest.addStockTest(AddDelStockTest.java:20)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteStockTest">
+                  </a> <!-- deleteStockTest -->
+                  <span class="method-name">deleteStockTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method AddDelStockTest.deleteStockTest(java.util.Hashtable)[pri:2, instance:com.qtpselenium.rediff.stocksuite.AddDelStockTest@73846619] depends on not successfully finished methods
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PortFolio_Suite_(0)-class-skipped -->
+        </div> <!-- panel PortFolio_Suite_(0) -->
+        <div panel-name="suite-Hybdri_Rediff_Suite" class="panel Hybdri_Rediff_Suite">
+        </div> <!-- panel Hybdri_Rediff_Suite -->
+        <div panel-name="test-xml-PortFolio_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\RAM\WORKSPACE\WHIZDOM\HybridRediff\src\test\resources\portfoliosuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;PortFolio Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Test&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.rediff.portfoliosuite.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PortFolio Test&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.rediff.portfoliosuite.PortFolioTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PortFolio Test --&gt;
+&lt;/suite&gt; &lt;!-- PortFolio Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-PortFolio_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\RAM\WORKSPACE\WHIZDOM\HybridRediff\src\test\resources\stocksuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;PortFolio Suite (0)&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AddDelStockTest&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.rediff.stocksuite.AddDelStockTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AddDelStockTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;BuySellStockTest&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.rediff.stocksuite.BuySellStockTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BuySellStockTest --&gt;
+&lt;/suite&gt; &lt;!-- PortFolio Suite (0) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Hybdri_Rediff_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\RAM\WORKSPACE\WHIZDOM\HybridRediff\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Hybdri Rediff Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;src/test/resources/portfoliosuite.xml&quot;/&gt;
+    &lt;suite-file path=&quot;src/test/resources/stocksuite.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- Hybdri Rediff Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PortFolio_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PortFolio Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PortFolio Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PortFolio_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PortFolio Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AddDelStockTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BuySellStockTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Hybdri_Rediff_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Hybdri Rediff Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PortFolio_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PortFolio Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PortFolio_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PortFolio Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Hybdri_Rediff_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Hybdri Rediff Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PortFolio_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PortFolio Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PortFolio_Suite');
+function tableData_PortFolio_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createPortFolioTest')
+data.setCell(0, 2, 'com.qtpselenium.rediff.portfoliosuite.PortFolioTest')
+data.setCell(0, 3, 92);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginTest')
+data.setCell(1, 2, 'com.qtpselenium.rediff.portfoliosuite.LoginTest')
+data.setCell(1, 3, 30);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createPortFolioTest')
+data.setCell(2, 2, 'com.qtpselenium.rediff.portfoliosuite.PortFolioTest')
+data.setCell(2, 3, 28);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createPortFolioTest')
+data.setCell(3, 2, 'com.qtpselenium.rediff.portfoliosuite.PortFolioTest')
+data.setCell(3, 3, 15);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginTest')
+data.setCell(4, 2, 'com.qtpselenium.rediff.portfoliosuite.LoginTest')
+data.setCell(4, 3, 6);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'deletePortFolioTest')
+data.setCell(5, 2, 'com.qtpselenium.rediff.portfoliosuite.PortFolioTest')
+data.setCell(5, 3, 0);
+window.suiteTableData['PortFolio_Suite']= { tableData: data, tableDiv: 'times-div-PortFolio_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 171 ms</span>
+              <div id="times-div-PortFolio_Suite">
+              </div> <!-- times-div-PortFolio_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PortFolio_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PortFolio Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PortFolio_Suite_(0)');
+function tableData_PortFolio_Suite_(0)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addStockTest')
+data.setCell(0, 2, 'com.qtpselenium.rediff.stocksuite.AddDelStockTest')
+data.setCell(0, 3, 12);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addStockTest')
+data.setCell(1, 2, 'com.qtpselenium.rediff.stocksuite.AddDelStockTest')
+data.setCell(1, 3, 3);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'deleteStockTest')
+data.setCell(2, 2, 'com.qtpselenium.rediff.stocksuite.AddDelStockTest')
+data.setCell(2, 3, 0);
+window.suiteTableData['PortFolio_Suite_(0)']= { tableData: data, tableDiv: 'times-div-PortFolio_Suite_(0)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 ms</span>
+              <div id="times-div-PortFolio_Suite_(0)">
+              </div> <!-- times-div-PortFolio_Suite_(0) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Hybdri_Rediff_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Hybdri Rediff Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Hybdri_Rediff_Suite');
+function tableData_Hybdri_Rediff_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Hybdri_Rediff_Suite']= { tableData: data, tableDiv: 'times-div-Hybdri_Rediff_Suite'}
+return data;
+}
+              </script>
+              <div id="times-div-Hybdri_Rediff_Suite">
+              </div> <!-- times-div-Hybdri_Rediff_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PortFolio_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PortFolio Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PortFolio_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PortFolio Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Hybdri_Rediff_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Hybdri Rediff Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PortFolio_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PortFolio_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Hybdri_Rediff_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PortFolio_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.rediff.portfoliosuite.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.rediff.portfoliosuite.PortFolioTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">init</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.rediff.portfoliosuite.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initTest</span>
+                <span class="method-start">960 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.rediff.portfoliosuite.PortFolioTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initTest</span>
+                <span class="method-start">960 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createPortFolioTest({PortfolioName=Rambabu, Runmode=Y, Browser=Mozilla})</span>
+                <span class="method-start">1206 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.rediff.portfoliosuite.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest({ExpectedResult=LoginSuccess, Runmode=Y, Browser=Chrome})</span>
+                <span class="method-start">1206 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.rediff.portfoliosuite.PortFolioTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">1237 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.rediff.portfoliosuite.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">1244 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.rediff.portfoliosuite.PortFolioTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initTest</span>
+                <span class="method-start">1748 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createPortFolioTest({PortfolioName=TejaSri, Runmode=Y, Browser=Chrome})</span>
+                <span class="method-start">1749 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">1781 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initTest</span>
+                <span class="method-start">1956 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.rediff.portfoliosuite.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initTest</span>
+                <span class="method-start">1998 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest({ExpectedResult=LoginSuccess, Runmode=Y, Browser=Mozilla})</span>
+                <span class="method-start">1998 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.rediff.portfoliosuite.PortFolioTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createPortFolioTest({PortfolioName=SabariJyothi, Runmode=Y, Browser=Mozilla})</span>
+                <span class="method-start">1998 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.rediff.portfoliosuite.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">2009 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.rediff.portfoliosuite.PortFolioTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">2098 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PortFolio_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.rediff.stocksuite.AddDelStockTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">initTest</span>
+                <span class="method-start">201 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addStockTest({PortFolio Name=Rambabu, Runmode=Y, Stock Name=Infosys Ltd, Purchase Price=500, Date Of Purchase=9/1...)</span>
+                <span class="method-start">201 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">220 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initTest</span>
+                <span class="method-start">530 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addStockTest({PortFolio Name=TejaSri, Runmode=Y, Stock Name=Wipro Ltd, Purchase Price=200, Date Of Purchase=17/09...)</span>
+                <span class="method-start">530 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">533 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Hybdri_Rediff_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

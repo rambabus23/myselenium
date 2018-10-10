@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PortFolio Suite" parallel="tests">
+	<test name="Login Test">
+	<classes>
+		<class name="com.qtpselenium.rediff.portfoliosuite.LoginTest"></class>
+	</classes>
+	</test>
+	<test name="PortFolio Test">
+	<classes>
+		<class name="com.qtpselenium.rediff.portfoliosuite.PortFolioTest"></class>
+	</classes>
+	</test>
+</suite>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="90.794" tests="9" errors="0" skipped="2" failures="7">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\RAM\WORKSPACE\WHIZDOM\HybridRediff\target\test-classes;D:\RAM\WORKSPACE\WHIZDOM\HybridRediff\target\classes;C:\Users\Ram\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar;C:\Users\Ram\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar;C:\Users\Ram\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar;C:\Users\Ram\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar;C:\Users\Ram\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar;C:\Users\Ram\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar;C:\Users\Ram\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar;C:\Users\Ram\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar;C:\Users\Ram\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar;C:\Users\Ram\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\Ram\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Ram\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Ram\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Ram\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Ram\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Ram\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Ram\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Ram\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Ram\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Ram\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Ram\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Ram\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Ram\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Ram\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Ram\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Ram\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Ram\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Ram\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Ram\.m2\repository\com\google\code\gson\gson\2.8.1\gson-2.8.1.jar;C:\Users\Ram\.m2\repository\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;C:\Users\Ram\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\Ram\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Ram\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\Ram\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Ram\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Ram\.m2\repository\cglib\cglib\3.1\cglib-3.1.jar;C:\Users\Ram\.m2\repository\org\ow2\asm\asm\4.2\asm-4.2.jar;C:\Users\Ram\.m2\repository\commons-validator\commons-validator\1.4.1\commons-validator-1.4.1.jar;C:\Users\Ram\.m2\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar;C:\Users\Ram\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\Ram\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Ram\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\Ram\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Ram\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Ram\.m2\repository\net\sf\saxon\saxon\8.7\saxon-8.7.jar;C:\Users\Ram\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\Ram\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Ram\AppData\Local\Temp\surefire8885302848630728549\surefirebooter7022042860458341238.jar C:\Users\Ram\AppData\Local\Temp\surefire8885302848630728549 2018-10-10T12-55-58_767-jvmRun1 surefire4349939142327077616tmp surefire_03630450312494470313tmp"/>
+    <property name="surefire.test.class.path" value="D:\RAM\WORKSPACE\WHIZDOM\HybridRediff\target\test-classes;D:\RAM\WORKSPACE\WHIZDOM\HybridRediff\target\classes;C:\Users\Ram\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar;C:\Users\Ram\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar;C:\Users\Ram\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar;C:\Users\Ram\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar;C:\Users\Ram\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar;C:\Users\Ram\.m2\repository\log4j\log4j\1.2.13\log4j-1.2.13.jar;C:\Users\Ram\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar;C:\Users\Ram\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar;C:\Users\Ram\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar;C:\Users\Ram\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\Ram\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Ram\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Ram\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Ram\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Ram\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Ram\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Ram\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Ram\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Ram\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Ram\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Ram\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Ram\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Ram\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Ram\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Ram\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Ram\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Ram\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Ram\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Ram\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Ram\.m2\repository\com\google\code\gson\gson\2.8.1\gson-2.8.1.jar;C:\Users\Ram\.m2\repository\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;C:\Users\Ram\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\Ram\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Ram\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\Ram\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Ram\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Ram\.m2\repository\cglib\cglib\3.1\cglib-3.1.jar;C:\Users\Ram\.m2\repository\org\ow2\asm\asm\4.2\asm-4.2.jar;C:\Users\Ram\.m2\repository\commons-validator\commons-validator\1.4.1\commons-validator-1.4.1.jar;C:\Users\Ram\.m2\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar;C:\Users\Ram\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\Ram\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Ram\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\Ram\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Ram\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Ram\.m2\repository\net\sf\saxon\saxon\8.7\saxon-8.7.jar;C:\Users\Ram\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\Ram\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Ram"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="basedir" value="D:\RAM\WORKSPACE\WHIZDOM\HybridRediff"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Ram\AppData\Local\Temp\surefire8885302848630728549\surefirebooter7022042860458341238.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="Ram"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Ram\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Ram\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="D:\RAM\WORKSPACE\WHIZDOM\HybridRediff"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\System32\OpenSSH\;D:\RAM\AUTOMATION\SELENIUM\SOFTWARES\Softies\apache-maven-3.5.4\bin;D:\RAM\AUTOMATION\SELENIUM\SOFTWARES\Softies\apache-ant-1.9.13\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\RAM\AUTOMATION\SELENIUM\SOFTWARES\Drivers;C:\Users\Ram\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="loginTest" classname="com.qtpselenium.rediff.portfoliosuite.LoginTest" time="1.544">
+    <failure type="java.lang.reflect.InvocationTargetException">java.lang.reflect.InvocationTargetException
+	at com.qtpselenium.rediff.portfoliosuite.LoginTest.loginTest(LoginTest.java:23)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'RAM-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Command duration or timeout: 257 milliseconds
+	at com.qtpselenium.rediff.portfoliosuite.LoginTest.loginTest(LoginTest.java:23)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'RAM-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'RAM-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+</failure>
+    <system-out><![CDATA[***com.qtpselenium.rediff.portfoliosuite
+***com.qtpselenium.rediff.stocksuite
+***com.qtpselenium.rediff.portfoliosuite
+Inside DataProvider - createPortFolioTest
+Inside DataProvider - addStockTest
+Test Name found at Row is 1
+Total columns are 7
+Total Rows are 2
+Inside DataProvider - loginTest
+Test Name found at Row is 1
+Total columns are 3
+Total Rows are 2
+Test Name found at Row is 6
+Total columns are 3
+Total Rows are 3
+Running addStockTest
+]]></system-out>
+    <system-err><![CDATA[Oct 10, 2018 12:56:02 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+Oct 10, 2018 12:56:02 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Oct 10, 2018 12:56:02 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.qtpselenium.rediff.portfoliosuite.LoginTest" time="25.295">
+    <failure type="java.lang.reflect.InvocationTargetException">java.lang.reflect.InvocationTargetException
+	at com.qtpselenium.rediff.portfoliosuite.LoginTest.loginTest(LoginTest.java:23)
+Caused by: java.lang.AssertionError: 
+The following asserts failed:
+	Got Result as LoginFailure
+	at com.qtpselenium.rediff.portfoliosuite.LoginTest.loginTest(LoginTest.java:23)
+</failure>
+    <system-err><![CDATA[Oct 10, 2018 12:56:51 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+Oct 10, 2018 12:56:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 10, 2018 12:57:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="addStockTest" classname="com.qtpselenium.rediff.stocksuite.AddDelStockTest" time="38.346">
+    <failure type="java.lang.reflect.InvocationTargetException">java.lang.reflect.InvocationTargetException
+	at com.qtpselenium.rediff.stocksuite.AddDelStockTest.addStockTest(AddDelStockTest.java:23)
+Caused by: java.lang.AssertionError: 
+The following asserts failed:
+	Object not found myPortFolio_xpath
+	at com.qtpselenium.rediff.stocksuite.AddDelStockTest.addStockTest(AddDelStockTest.java:23)
+</failure>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN Please initialize the log4j system properly.
+Oct 10, 2018 12:56:05 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+Oct 10, 2018 12:56:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 10, 2018 12:56:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="addStockTest" classname="com.qtpselenium.rediff.stocksuite.AddDelStockTest" time="0.173">
+    <failure type="java.lang.reflect.InvocationTargetException">java.lang.reflect.InvocationTargetException
+	at com.qtpselenium.rediff.stocksuite.AddDelStockTest.addStockTest(AddDelStockTest.java:23)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'RAM-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Command duration or timeout: 5.11 seconds
+	at com.qtpselenium.rediff.stocksuite.AddDelStockTest.addStockTest(AddDelStockTest.java:23)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'RAM-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'RAM-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+</failure>
+    <system-err><![CDATA[Oct 10, 2018 12:56:51 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+]]></system-err>
+  </testcase>
+  <testcase name="createPortFolioTest" classname="com.qtpselenium.rediff.portfoliosuite.PortFolioTest" time="1.59">
+    <failure type="java.lang.reflect.InvocationTargetException">java.lang.reflect.InvocationTargetException
+	at com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:23)
+Caused by: java.lang.AssertionError: 
+The following asserts failed:
+	Object not found createPortfolio_id
+	at com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:23)
+</failure>
+    <system-out><![CDATA[Running addStockTest
+]]></system-out>
+    <system-err><![CDATA[Oct 10, 2018 12:56:46 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+]]></system-err>
+  </testcase>
+  <testcase name="createPortFolioTest" classname="com.qtpselenium.rediff.portfoliosuite.PortFolioTest" time="0.615">
+    <failure type="java.lang.reflect.InvocationTargetException">java.lang.reflect.InvocationTargetException
+	at com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:23)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'RAM-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Command duration or timeout: 578 milliseconds
+	at com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:23)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new service: ChromeDriverService
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'RAM-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'RAM-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+</failure>
+  </testcase>
+  <testcase name="createPortFolioTest" classname="com.qtpselenium.rediff.portfoliosuite.PortFolioTest" time="36.494">
+    <failure type="java.lang.reflect.InvocationTargetException">java.lang.reflect.InvocationTargetException
+	at com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:23)
+Caused by: java.lang.AssertionError: 
+The following asserts failed:
+	Object not found createPortfolio_id
+	at com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:23)
+</failure>
+  </testcase>
+  <testcase name="deleteStockTest" classname="com.qtpselenium.rediff.stocksuite.AddDelStockTest" time="0">
+    <skipped message="Method AddDelStockTest.deleteStockTest(java.util.Hashtable)[pri:2, instance:com.qtpselenium.rediff.stocksuite.AddDelStockTest@51081592] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="deletePortFolioTest" classname="com.qtpselenium.rediff.portfoliosuite.PortFolioTest" time="0">
+    <skipped message="Method PortFolioTest.deletePortFolioTest(java.util.Hashtable)[pri:2, instance:com.qtpselenium.rediff.portfoliosuite.PortFolioTest@6cc4c815] depends on not successfully finished methods"/>
+  </testcase>
+</testsuite>

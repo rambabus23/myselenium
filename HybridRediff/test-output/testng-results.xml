@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="9" failed="0" ignored="0" total="9" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PortFolio Suite" duration-ms="2270" started-at="2018-10-10T06:59:44Z" finished-at="2018-10-10T06:59:46Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="2106" started-at="2018-10-10T06:59:44Z" finished-at="2018-10-10T06:59:46Z">
+      <class name="com.qtpselenium.rediff.portfoliosuite.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qtpselenium.rediff.portfoliosuite.LoginTest@4dfa3a9d]" name="init" is-config="true" duration-ms="926" started-at="2018-10-10T06:59:44Z" finished-at="2018-10-10T06:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.qtpselenium.rediff.portfoliosuite.LoginTest@4dfa3a9d]" name="initTest" is-config="true" duration-ms="246" started-at="2018-10-10T06:59:45Z" finished-at="2018-10-10T06:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.rediff.portfoliosuite.LoginTest@4dfa3a9d]" name="loginTest" duration-ms="30" started-at="2018-10-10T06:59:45Z" data-provider="getData" finished-at="2018-10-10T06:59:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedResult=LoginSuccess, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test as Runmode Set to NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test as Runmode Set to NO
+at com.qtpselenium.rediff.portfoliosuite.LoginTest.loginTest(LoginTest.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.rediff.portfoliosuite.LoginTest@4dfa3a9d]" name="quit" is-config="true" duration-ms="754" started-at="2018-10-10T06:59:45Z" finished-at="2018-10-10T06:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.rediff.portfoliosuite.LoginTest@4dfa3a9d]" name="loginTest" duration-ms="6" started-at="2018-10-10T06:59:46Z" data-provider="getData" finished-at="2018-10-10T06:59:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExpectedResult=LoginSuccess, Runmode=Y, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test as Runmode Set to NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test as Runmode Set to NO
+at com.qtpselenium.rediff.portfoliosuite.LoginTest.loginTest(LoginTest.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.qtpselenium.rediff.portfoliosuite.LoginTest@4dfa3a9d]" name="initTest" is-config="true" duration-ms="0" started-at="2018-10-10T06:59:46Z" finished-at="2018-10-10T06:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.rediff.portfoliosuite.LoginTest@4dfa3a9d]" name="quit" is-config="true" duration-ms="81" started-at="2018-10-10T06:59:46Z" finished-at="2018-10-10T06:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qtpselenium.rediff.portfoliosuite.LoginTest -->
+    </test> <!-- Login Test -->
+    <test name="PortFolio Test" duration-ms="2270" started-at="2018-10-10T06:59:44Z" finished-at="2018-10-10T06:59:46Z">
+      <class name="com.qtpselenium.rediff.portfoliosuite.PortFolioTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qtpselenium.rediff.portfoliosuite.PortFolioTest@cb644e]" name="init" is-config="true" duration-ms="919" started-at="2018-10-10T06:59:44Z" finished-at="2018-10-10T06:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.qtpselenium.rediff.portfoliosuite.PortFolioTest@cb644e]" name="initTest" is-config="true" duration-ms="246" started-at="2018-10-10T06:59:45Z" finished-at="2018-10-10T06:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="createPortFolioTest(java.util.Hashtable)[pri:1, instance:com.qtpselenium.rediff.portfoliosuite.PortFolioTest@cb644e]" name="createPortFolioTest" duration-ms="28" started-at="2018-10-10T06:59:45Z" data-provider="getData" finished-at="2018-10-10T06:59:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PortfolioName=Rambabu, Runmode=Y, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test as Runmode Set to NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test as Runmode Set to NO
+at com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPortFolioTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.rediff.portfoliosuite.PortFolioTest@cb644e]" name="quit" is-config="true" duration-ms="511" started-at="2018-10-10T06:59:45Z" finished-at="2018-10-10T06:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.qtpselenium.rediff.portfoliosuite.PortFolioTest@cb644e]" name="initTest" is-config="true" duration-ms="1" started-at="2018-10-10T06:59:45Z" finished-at="2018-10-10T06:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="createPortFolioTest(java.util.Hashtable)[pri:1, instance:com.qtpselenium.rediff.portfoliosuite.PortFolioTest@cb644e]" name="createPortFolioTest" duration-ms="15" started-at="2018-10-10T06:59:45Z" data-provider="getData" finished-at="2018-10-10T06:59:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PortfolioName=TejaSri, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test as Runmode Set to NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test as Runmode Set to NO
+at com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPortFolioTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.rediff.portfoliosuite.PortFolioTest@cb644e]" name="quit" is-config="true" duration-ms="175" started-at="2018-10-10T06:59:45Z" finished-at="2018-10-10T06:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.qtpselenium.rediff.portfoliosuite.PortFolioTest@cb644e]" name="initTest" is-config="true" duration-ms="42" started-at="2018-10-10T06:59:46Z" finished-at="2018-10-10T06:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="createPortFolioTest(java.util.Hashtable)[pri:1, instance:com.qtpselenium.rediff.portfoliosuite.PortFolioTest@cb644e]" name="createPortFolioTest" duration-ms="92" started-at="2018-10-10T06:59:46Z" data-provider="getData" finished-at="2018-10-10T06:59:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PortfolioName=SabariJyothi, Runmode=Y, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test as Runmode Set to NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test as Runmode Set to NO
+at com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPortFolioTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.rediff.portfoliosuite.PortFolioTest@cb644e]" name="quit" is-config="true" duration-ms="153" started-at="2018-10-10T06:59:46Z" finished-at="2018-10-10T06:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="deletePortFolioTest(java.util.Hashtable)[pri:2, instance:com.qtpselenium.rediff.portfoliosuite.PortFolioTest@cb644e]" name="deletePortFolioTest" duration-ms="0" started-at="2018-10-10T06:59:46Z" data-provider="getData" depends-on-methods="com.qtpselenium.rediff.portfoliosuite.PortFolioTest.createPortFolioTest" finished-at="2018-10-10T06:59:46Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PortFolioTest.deletePortFolioTest(java.util.Hashtable)[pri:2, instance:com.qtpselenium.rediff.portfoliosuite.PortFolioTest@cb644e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PortFolioTest.deletePortFolioTest(java.util.Hashtable)[pri:2, instance:com.qtpselenium.rediff.portfoliosuite.PortFolioTest@cb644e] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePortFolioTest -->
+      </class> <!-- com.qtpselenium.rediff.portfoliosuite.PortFolioTest -->
+    </test> <!-- PortFolio Test -->
+  </suite> <!-- PortFolio Suite -->
+  <suite name="PortFolio Suite (0)" duration-ms="611" started-at="2018-10-10T06:59:46Z" finished-at="2018-10-10T06:59:47Z">
+    <groups>
+    </groups>
+    <test name="BuySellStockTest" duration-ms="3" started-at="2018-10-10T06:59:46Z" finished-at="2018-10-10T06:59:46Z">
+    </test> <!-- BuySellStockTest -->
+    <test name="AddDelStockTest" duration-ms="611" started-at="2018-10-10T06:59:46Z" finished-at="2018-10-10T06:59:47Z">
+      <class name="com.qtpselenium.rediff.stocksuite.AddDelStockTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qtpselenium.rediff.stocksuite.AddDelStockTest@73846619]" name="init" is-config="true" duration-ms="197" started-at="2018-10-10T06:59:46Z" finished-at="2018-10-10T06:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="SKIP" signature="addStockTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.rediff.stocksuite.AddDelStockTest@73846619]" name="addStockTest" duration-ms="12" started-at="2018-10-10T06:59:46Z" data-provider="getData" finished-at="2018-10-10T06:59:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PortFolio Name=Rambabu, Runmode=Y, Stock Name=Infosys Ltd, Purchase Price=500, Date Of Purchase=9/10/2018, Quantity=100, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test as Runmode Set to NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test as Runmode Set to NO
+at com.qtpselenium.rediff.stocksuite.AddDelStockTest.addStockTest(AddDelStockTest.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStockTest -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.qtpselenium.rediff.stocksuite.AddDelStockTest@73846619]" name="initTest" is-config="true" duration-ms="0" started-at="2018-10-10T06:59:46Z" finished-at="2018-10-10T06:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.rediff.stocksuite.AddDelStockTest@73846619]" name="quit" is-config="true" duration-ms="310" started-at="2018-10-10T06:59:46Z" finished-at="2018-10-10T06:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.qtpselenium.rediff.stocksuite.AddDelStockTest@73846619]" name="initTest" is-config="true" duration-ms="0" started-at="2018-10-10T06:59:47Z" finished-at="2018-10-10T06:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="SKIP" signature="addStockTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.rediff.stocksuite.AddDelStockTest@73846619]" name="addStockTest" duration-ms="3" started-at="2018-10-10T06:59:47Z" data-provider="getData" finished-at="2018-10-10T06:59:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PortFolio Name=TejaSri, Runmode=Y, Stock Name=Wipro Ltd, Purchase Price=200, Date Of Purchase=17/09/2017, Quantity=500, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test as Runmode Set to NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test as Runmode Set to NO
+at com.qtpselenium.rediff.stocksuite.AddDelStockTest.addStockTest(AddDelStockTest.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStockTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.rediff.stocksuite.AddDelStockTest@73846619]" name="quit" is-config="true" duration-ms="74" started-at="2018-10-10T06:59:47Z" finished-at="2018-10-10T06:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="deleteStockTest(java.util.Hashtable)[pri:2, instance:com.qtpselenium.rediff.stocksuite.AddDelStockTest@73846619]" name="deleteStockTest" duration-ms="0" started-at="2018-10-10T06:59:47Z" data-provider="getData" depends-on-methods="com.qtpselenium.rediff.stocksuite.AddDelStockTest.addStockTest" finished-at="2018-10-10T06:59:47Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method AddDelStockTest.deleteStockTest(java.util.Hashtable)[pri:2, instance:com.qtpselenium.rediff.stocksuite.AddDelStockTest@73846619] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method AddDelStockTest.deleteStockTest(java.util.Hashtable)[pri:2, instance:com.qtpselenium.rediff.stocksuite.AddDelStockTest@73846619] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteStockTest -->
+      </class> <!-- com.qtpselenium.rediff.stocksuite.AddDelStockTest -->
+    </test> <!-- AddDelStockTest -->
+  </suite> <!-- PortFolio Suite (0) -->
+  <suite name="Hybdri Rediff Suite" duration-ms="0" started-at="2018-10-10T06:59:47Z" finished-at="2018-10-10T06:59:47Z">
+    <groups>
+    </groups>
+  </suite> <!-- Hybdri Rediff Suite -->
+</testng-results>
